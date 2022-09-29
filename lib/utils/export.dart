@@ -8,10 +8,14 @@ export 'package:get/get.dart';
 // Models
 // Views
 //-- Screens
+//----Home
 export 'package:flutter_web/views/screens/home/home_screen.dart';
-
-//---- Components
-//---- Data
+//------ Components
+//------ Responsive Layout
+export 'package:flutter_web/views/screens/home/responsive_layout/desktop_layout.dart';
+export 'package:flutter_web/views/screens/home/responsive_layout/mobile_layout.dart';
+export 'package:flutter_web/views/screens/home/responsive_layout/tablet_layout.dart';
+//------ Data
 
 //-- Dialogs
 //-- Screens
@@ -22,4 +26,9 @@ export 'package:flutter_web/views/theme/app_colors.dart';
 // Controllers
 
 // Constants
+export 'package:flutter_web/consts/app_sizes.dart';
 export 'package:flutter_web/consts/asset_paths.dart';
+
+// Utils
+//-- Helpers
+export 'package:flutter_web/utils/helpers/responsive_layout.dart';
